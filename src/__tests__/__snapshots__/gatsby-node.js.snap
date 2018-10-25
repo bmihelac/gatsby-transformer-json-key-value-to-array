@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Process JSON nodes correctly correctly creates nodes from JSON 1`] = `
+Array [
+  Array [
+    Object {
+      "children": Array [],
+      "file___NODE": "whatever",
+      "id": "uuid-from-gatsby",
+      "internal": Object {
+        "contentDigest": "contentDigest",
+        "type": "KeyValue",
+      },
+      "isJson": false,
+      "key": "title",
+      "parent": "whatever",
+      "value": "My title",
+    },
+  ],
+  Array [
+    Object {
+      "children": Array [],
+      "file___NODE": "whatever",
+      "id": "uuid-from-gatsby",
+      "internal": Object {
+        "contentDigest": "contentDigest",
+        "type": "KeyValue",
+      },
+      "isJson": false,
+      "key": "description",
+      "parent": "whatever",
+      "value": "Lorem ipsum",
+    },
+  ],
+  Array [
+    Object {
+      "children": Array [],
+      "file___NODE": "whatever",
+      "id": "uuid-from-gatsby",
+      "internal": Object {
+        "contentDigest": "contentDigest",
+        "type": "KeyValue",
+      },
+      "isJson": true,
+      "key": "nested",
+      "parent": "whatever",
+      "value": "{\\"foo\\":\\"bar\\"}",
+    },
+  ],
+]
+`;
+
+exports[`Process JSON nodes correctly correctly creates nodes from JSON 2`] = `
+Array [
+  Array [
+    Object {
+      "child": Object {
+        "children": Array [],
+        "file___NODE": "whatever",
+        "id": "uuid-from-gatsby",
+        "internal": Object {
+          "contentDigest": "contentDigest",
+          "type": "KeyValue",
+        },
+        "isJson": false,
+        "key": "title",
+        "parent": "whatever",
+        "value": "My title",
+      },
+      "parent": Object {
+        "children": Array [],
+        "content": "{\\"title\\":\\"My title\\",\\"description\\":\\"Lorem ipsum\\",\\"nested\\":{\\"foo\\":\\"bar\\"}}",
+        "dir": "/tmp/foo/",
+        "id": "whatever",
+        "internal": Object {
+          "contentDigest": "whatever",
+          "mediaType": "application/json",
+          "type": "File",
+        },
+        "name": "nodeName",
+        "parent": "SOURCE",
+      },
+    },
+  ],
+  Array [
+    Object {
+      "child": Object {
+        "children": Array [],
+        "file___NODE": "whatever",
+        "id": "uuid-from-gatsby",
+        "internal": Object {
+          "contentDigest": "contentDigest",
+          "type": "KeyValue",
+        },
+        "isJson": false,
+        "key": "description",
+        "parent": "whatever",
+        "value": "Lorem ipsum",
+      },
+      "parent": Object {
+        "children": Array [],
+        "content": "{\\"title\\":\\"My title\\",\\"description\\":\\"Lorem ipsum\\",\\"nested\\":{\\"foo\\":\\"bar\\"}}",
+        "dir": "/tmp/foo/",
+        "id": "whatever",
+        "internal": Object {
+          "contentDigest": "whatever",
+          "mediaType": "application/json",
+          "type": "File",
+        },
+        "name": "nodeName",
+        "parent": "SOURCE",
+      },
+    },
+  ],
+  Array [
+    Object {
+      "child": Object {
+        "children": Array [],
+        "file___NODE": "whatever",
+        "id": "uuid-from-gatsby",
+        "internal": Object {
+          "contentDigest": "contentDigest",
+          "type": "KeyValue",
+        },
+        "isJson": true,
+        "key": "nested",
+        "parent": "whatever",
+        "value": "{\\"foo\\":\\"bar\\"}",
+      },
+      "parent": Object {
+        "children": Array [],
+        "content": "{\\"title\\":\\"My title\\",\\"description\\":\\"Lorem ipsum\\",\\"nested\\":{\\"foo\\":\\"bar\\"}}",
+        "dir": "/tmp/foo/",
+        "id": "whatever",
+        "internal": Object {
+          "contentDigest": "whatever",
+          "mediaType": "application/json",
+          "type": "File",
+        },
+        "name": "nodeName",
+        "parent": "SOURCE",
+      },
+    },
+  ],
+]
+`;
