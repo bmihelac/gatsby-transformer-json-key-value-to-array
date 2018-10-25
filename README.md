@@ -1,5 +1,7 @@
 # gatsby-transformer-json-key-value-to-array
 
+[![Build Status](https://travis-ci.com/bmihelac/gatsby-transformer-json-key-value-to-array.svg?branch=master)](https://travis-ci.com/bmihelac/gatsby-transformer-json-key-value-to-array)
+
 Transforms JSON objects into queryable array with key/value pairs.
 
 ## Install
