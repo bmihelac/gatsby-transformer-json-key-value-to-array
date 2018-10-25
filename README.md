@@ -1,8 +1,7 @@
 # gatsby-transformer-json-key-value-to-array
 
 [![Build Status](https://travis-ci.com/bmihelac/gatsby-transformer-json-key-value-to-array.svg?branch=master)](https://travis-ci.com/bmihelac/gatsby-transformer-json-key-value-to-array)
-
-[![npm](https://img.shields.io/)](https://www.npmjs.com/package/gatsby-transformer-json-key-value-to-array)
+![npm](https://img.shields.io/npm/v/gatsby-transformer-json-key-value-to-array.svg)
 
 Transforms JSON objects into queryable array with key/value pairs.
 
