@@ -4,3 +4,6 @@ node_js:
   - '8'
   - '10'
 install: npm install
+cache:
+  directories:
+    - node_modules
